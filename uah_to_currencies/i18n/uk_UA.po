@@ -1,0 +1,118 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* uah_to_currencies
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-31 10:36+0000\n"
+"PO-Revision-Date: 2026-07-31 10:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: uah_to_currencies
+#: model_terms:ir.ui.view,arch_db:uah_to_currencies.fetch_history_wizard_view_form
+msgid "Apply changes"
+msgstr "Прийняти зміни"
+
+#. module: uah_to_currencies
+#: model:ir.model.fields,field_description:uah_to_currencies.field_fetch_history_wizard__bottom_date
+msgid "Bottom Date"
+msgstr "Нижня дата"
+
+#. module: uah_to_currencies
+#. odoo-python
+#: code:addons/uah_to_currencies/wizard/fetch_history_wizard.py:0
+msgid "Bottom date can not be after Top date"
+msgstr "Нижня дата не може бути після Верхньої дати"
+
+#. module: uah_to_currencies
+#: model_terms:ir.ui.view,arch_db:uah_to_currencies.fetch_history_wizard_view_form
+msgid "Cancel"
+msgstr "Відмінити"
+
+#. module: uah_to_currencies
+#: model:ir.model.fields,field_description:uah_to_currencies.field_fetch_history_wizard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: uah_to_currencies
+#: model:ir.model.fields,field_description:uah_to_currencies.field_fetch_history_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: uah_to_currencies
+#: model:ir.model,name:uah_to_currencies.model_res_currency
+#: model:ir.model.fields,field_description:uah_to_currencies.field_fetch_history_wizard__currency_id
+msgid "Currency"
+msgstr "Валюта"
+
+#. module: uah_to_currencies
+#: model:ir.model.fields,field_description:uah_to_currencies.field_fetch_history_wizard__display_name
+#: model:ir.model.fields,field_description:uah_to_currencies.field_res_currency__display_name
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. module: uah_to_currencies
+#: model_terms:ir.ui.view,arch_db:uah_to_currencies.view_currency_form_inherit_uah_to_currencies
+msgid "Download Rate History"
+msgstr "Завантажити Історію Курсу"
+
+#. module: uah_to_currencies
+#: model_terms:ir.ui.view,arch_db:uah_to_currencies.fetch_history_wizard_view_form
+msgid "Fetch Currencies History"
+msgstr "Завантажити Історію Курсу"
+
+#. module: uah_to_currencies
+#. odoo-python
+#: code:addons/uah_to_currencies/models/res_currency.py:0
+msgid "Fetch Rate History"
+msgstr "Завантажити Історію Курсу"
+
+#. module: uah_to_currencies
+#: model:ir.model.fields,field_description:uah_to_currencies.field_fetch_history_wizard__id
+#: model:ir.model.fields,field_description:uah_to_currencies.field_res_currency__id
+msgid "ID"
+msgstr ""
+
+#. module: uah_to_currencies
+#: model:ir.model.fields,field_description:uah_to_currencies.field_fetch_history_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: uah_to_currencies
+#: model:ir.model.fields,field_description:uah_to_currencies.field_fetch_history_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: uah_to_currencies
+#. odoo-python
+#: code:addons/uah_to_currencies/wizard/fetch_history_wizard.py:0
+msgid "Only for companies with UAH as main currency."
+msgstr "Тільки для компаній з UAH як основна валюта"
+
+#. module: uah_to_currencies
+#: model:ir.actions.server,name:uah_to_currencies.ir_cron_parse_uah_to_currencies_ir_actions_server
+msgid "Parse UAH to currencies"
+msgstr "Отримати UAH до валют"
+
+#. module: uah_to_currencies
+#: model:ir.model.fields,field_description:uah_to_currencies.field_fetch_history_wizard__top_date
+msgid "Top Date"
+msgstr "Верхня дата"
+
+#. module: uah_to_currencies
+#. odoo-python
+#: code:addons/uah_to_currencies/wizard/fetch_history_wizard.py:0
+msgid "Top date can not be in future."
+msgstr "Верхня дата не може бути у майбутньому"
+
+#. module: uah_to_currencies
+#: model:ir.model,name:uah_to_currencies.model_fetch_history_wizard
+msgid "Wizard to fetch currency history"
+msgstr "Отримання історії валют"

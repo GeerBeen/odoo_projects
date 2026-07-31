@@ -1,0 +1,19 @@
+<odoo>
+    <record id="fetch_history_wizard_view_form" model="ir.ui.view">
+        <field name="name">fetch.history.wizard.view.form</field>
+        <field name="model">fetch.history.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Fetch Currencies History">
+                <group>
+                    <field name="currency_id"/>
+                    <field name="top_date"/>
+                    <field name="bottom_date"/>
+                </group>
+                <footer>
+                    <button string="Apply changes" name="action_apply" type="object" class="btn-primary"/>
+                    <button string="Cancel" name="action_cancel" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="view_currency_form_inherit_uah_to_currencies" model="ir.ui.view">
+        <field name="name">view.currency.form.inherit.uah.to.currencies</field>
+        <field name="model">res.currency</field>
+        <field name="inherit_id" ref="base.view_currency_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="before">
+                <header>
+                    <button string="Download Rate History"
+                            name="action_open_history_wizard"
+                            type="object"
+                            class="btn-primary"
+                            invisible="name == 'UAH'"/>
+                </header>
+            </xpath>
+        </field>
+    </record>
+</odoo>

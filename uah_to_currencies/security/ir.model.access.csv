@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+uah_to_currencies.access_fetch_history_wizard,access_fetch_history_wizard,uah_to_currencies.model_fetch_history_wizard,base.group_user,1,1,1,1
